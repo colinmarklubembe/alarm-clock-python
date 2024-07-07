@@ -21,6 +21,7 @@ def set_alarm(hour, minute) :
         app_icon=None,
         timeout=10,
     )
+    
     # Play a sound
     winsound.Beep(1000, 1000)
 # Beep at 1000 Hz for 1 second
